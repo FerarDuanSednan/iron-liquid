@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Liquid exemple</title>
+</head>
+<body>
+  <h1>Liquid exemple</h1>
+    <ul>
+    {%for team in teams%}
+      <li class="">
+        <b>{{team.name}}</b>: {{team.pts}}
+      </li>
+      {% endfor  %}
+    </ul>
+</body>
+</html>
